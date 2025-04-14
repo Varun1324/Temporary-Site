@@ -100,7 +100,7 @@ except FileNotFoundError:
     st.stop()
 
 # Streamlit UI
-st.title("Social Media Sentiment Analysis using LSTM")
+st.title("Social Media Sentiment Analysis using Bi-LSTM")
 st.write("Enter a text below to predict **Sentiment** and **Emotion**.")
 
 # Sample Reviews
